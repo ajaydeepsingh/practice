@@ -1,2 +1,1 @@
-# DailyCoder
-Coding Interview Practice
+my solutions for various programming questions 
