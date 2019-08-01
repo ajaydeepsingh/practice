@@ -16,3 +16,21 @@ commands after which the students will be facing the same direction.
 
 def lineUp(commands):
 
+    degrees = 0
+    temp = 0
+    for x in commands:
+        if x == 'L':
+            degrees += 90
+        if x == 'R':
+            degrees -= 90
+        if x == 'A':
+            degrees += 180
+
+        if degrees % 180 == 0:
+            temp += 1
+            degrees = 0
+
+    return temp
+
+
+
