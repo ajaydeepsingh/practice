@@ -10,12 +10,15 @@
 #     self.value = x
 #     self.left = None
 #     self.right = None
+
 def hasPathWithGivenSum(t, s):
-
-
-    temp = s
-
-    temp = s - t.value
-
+    if not t:
+        return False
     
+    if not t.left and not t.right and t.value == s:
+        return True
+    
+    s -= t.value
+
+    return hasPathWithGivenSum(t.left, s) or hasPathWithGivenSum(t.right, s)
 
