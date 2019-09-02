@@ -1,1 +1,1 @@
-my solutions for various programming questions 
+My solutions for various coding challenges :)
