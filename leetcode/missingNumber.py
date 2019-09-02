@@ -6,7 +6,7 @@ def missingNumber(self, nums):
         
         
         reference = set(nums)
-        for x in range(0,len(nums)+1):
+        for x in range(0, len(nums)+1):
             if x not in reference:
                 return x
             
