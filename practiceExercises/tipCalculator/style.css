@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    font: 14px/1.1 Helvetica, Sans-Serif;
+    background-color: #d291bc;
+}
+
+input[type="number"] {
+    font-size: 18px;
+    height: 45px;
+    padding: 5px;
+    width: 285px;
+    font-size: 16px !important;
+  }
