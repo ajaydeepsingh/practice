@@ -39,7 +39,6 @@ export default function App() {
   const [counter, setCounter] = useState(0);
   const [nextPageNumber, setNextPageNumber] = useState(1);
   const [userInfos, setUserInfos] = useState<any>([]);
-  const [randomUserDataJSON, setRandomUserDataJSON] = useState("");
 
   const fetchNextUser = useRef(() => {});
 
@@ -67,6 +66,8 @@ export default function App() {
       >
         Increase Counter
       </button>
+      <br></br>
+      <h2>api data fetch</h2>
       <button
         onClick={() => {
           fetchNextUser.current();
